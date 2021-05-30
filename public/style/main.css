@@ -1,0 +1,86 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background:url("/img/BrxG.gif");
+    background-size: 60%;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+.wall {
+    background: url("/img/Brick-Textures.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
+}
+
+.power-pellet {
+    background: url("/img/W9jz.gif");
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.blinky {
+    background:url("/img/biypBB9iL.gif");
+    background-size: 369%;
+    background-position-x: 1px;
+    background-repeat: no-repeat;
+}
+
+.pinky {
+    background:url("/img/biypBB9iL.gif");
+    background-size: 369%;
+    background-position-x: -18px;
+    background-repeat: no-repeat;
+}
+
+.inky {
+    background:url("/img/biypBB9iL.gif");
+    background-size: 369%;
+    background-position-x: -36px;
+    background-repeat: no-repeat;
+}
+
+.clyde {
+    background:url("/img/biypBB9iL.gif");
+    background-size: 369%;
+    background-position-x: -55px;
+    background-repeat: no-repeat;
+}
+
+.pac-man {
+    background: url("/img/pacman.gif");
+    background-size: cover;
+
+}
+
+.scared-ghost {
+    background:url("/img/de7170d4fc519b0.gif") !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+/*Player Grid*/
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1rem;
+}
